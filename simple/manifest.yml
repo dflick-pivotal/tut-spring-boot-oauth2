@@ -1,0 +1,12 @@
+---
+instances: 1
+memory: 1G
+applications:
+- name: simple
+  host: simple
+  path: target/simple-0.0.1-SNAPSHOT.jar
+  services:
+  - sso
+env:
+  CF_TARGET: https://api.PCF_SYSTEM_DOMAIN_EINTRAGEN
+ 
